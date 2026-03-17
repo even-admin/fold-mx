@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>fold — AI y tecnología desde el sureste de México</title>
+<meta name="description" content="Las noticias de AI y tecnología que importan, curadas para el ecosistema de innovación de Yucatán y México. Sin ruido. Impacto real.">
+<meta property="og:title" content="fold — AI y tecnología desde el sureste de México">
+<meta property="og:description" content="Las noticias de AI y tecnología que importan, curadas para el ecosistema de innovación de Yucatán y México.">
+<meta property="og:type" content="website">
+
+<!-- Fonts — Erode (display) + Switzer (body) from Fontshare -->
+<link href="https://api.fontshare.com/v2/css?f[]=erode@300,400,500,600&f[]=switzer@300,400,450,500,600,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="style.css">
+
+<!-- Favicon — halftone dot -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0a'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23fff'/%3E%3Ccircle cx='8' cy='16' r='3' fill='%23fff'/%3E%3Ccircle cx='24' cy='16' r='3' fill='%23fff'/%3E%3Ccircle cx='16' cy='8' r='3' fill='%23fff'/%3E%3Ccircle cx='16' cy='24' r='3' fill='%23fff'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ════ HEADER ════ -->
+<header class="header">
+  <div class="container header__inner">
+    <a href="index.html" class="header__logo" aria-label="fold — inicio">
+      <svg class="header__wordmark" viewBox="0 0 100 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="fold">
+  <text x="0" y="28" font-family="'Erode', Georgia, serif" font-size="32" font-weight="400" font-style="italic" fill="currentColor" letter-spacing="-0.02em">fold</text>
+</svg>
+    </a>
+
+    <nav class="header__nav" aria-label="Navegación principal">
+      <a href="#featured" class="header__link">AI</a>
+      <a href="#latest" class="header__link">Innovación</a>
+      <a href="#featured" class="header__link">Ecosistema</a>
+      <a href="#latest" class="header__link">Deep Dives</a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="#newsletter" class="header__subscribe-btn">Suscribirse</a>
+      <button class="theme-toggle" data-theme-toggle aria-label="Cambiar tema">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="header__menu-toggle" aria-label="Abrir menú" onclick="document.querySelector('.mobile-nav').classList.add('is-open')">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" role="dialog" aria-label="Menú de navegación">
+  <div class="mobile-nav__header">
+<svg viewBox="0 0 180 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="height:22px;width:auto;" aria-hidden="true">
+  <g transform="translate(0, 2) scale(0.32)">
+      <circle cx="30.5" cy="11.0" r="0.63" fill="currentColor"/>
+      <circle cx="37.0" cy="11.0" r="0.83" fill="currentColor"/>
+      <circle cx="43.5" cy="11.0" r="0.96" fill="currentColor"/>
+      <circle cx="50.0" cy="11.0" r="1.00" fill="currentColor"/>
+      <circle cx="56.5" cy="11.0" r="0.96" fill="currentColor"/>
+      <circle cx="63.0" cy="11.0" r="0.83" fill="currentColor"/>
+      <circle cx="69.5" cy="11.0" r="0.63" fill="currentColor"/>
+      <circle cx="24.0" cy="17.5" r="0.79" fill="currentColor"/>
+      <circle cx="30.5" cy="17.5" r="1.08" fill="currentColor"/>
+      <circle cx="37.0" cy="17.5" r="1.30" fill="currentColor"/>
+      <circle cx="43.5" cy="17.5" r="1.43" fill="currentColor"/>
+      <circle cx="50.0" cy="17.5" r="1.48" fill="currentColor"/>
+      <circle cx="56.5" cy="17.5" r="1.43" fill="currentColor"/>
+      <circle cx="63.0" cy="17.5" r="1.30" fill="currentColor"/>
+      <circle cx="69.5" cy="17.5" r="1.08" fill="currentColor"/>
+      <circle cx="76.0" cy="17.5" r="0.79" fill="currentColor"/>
+      <circle cx="17.5" cy="24.0" r="0.79" fill="currentColor"/>
+      <circle cx="24.0" cy="24.0" r="1.17" fill="currentColor"/>
+      <circle cx="30.5" cy="24.0" r="1.48" fill="currentColor"/>
+      <circle cx="37.0" cy="24.0" r="1.71" fill="currentColor"/>
+      <circle cx="43.5" cy="24.0" r="1.86" fill="currentColor"/>
+      <circle cx="50.0" cy="24.0" r="1.91" fill="currentColor"/>
+      <circle cx="56.5" cy="24.0" r="1.86" fill="currentColor"/>
+      <circle cx="63.0" cy="24.0" r="1.71" fill="currentColor"/>
+      <circle cx="69.5" cy="24.0" r="1.48" fill="currentColor"/>
+      <circle cx="76.0" cy="24.0" r="1.17" fill="currentColor"/>
+      <circle cx="82.5" cy="24.0" r="0.79" fill="currentColor"/>
+      <circle cx="11.0" cy="30.5" r="0.63" fill="currentColor"/>
+      <circle cx="17.5" cy="30.5" r="1.08" fill="currentColor"/>
+      <circle cx="24.0" cy="30.5" r="1.48" fill="currentColor"/>
+      <circle cx="30.5" cy="30.5" r="1.81" fill="currentColor"/>
+      <circle cx="37.0" cy="30.5" r="2.07" fill="currentColor"/>
+      <circle cx="43.5" cy="30.5" r="2.23" fill="currentColor"/>
+      <circle cx="50.0" cy="30.5" r="2.29" fill="currentColor"/>
+      <circle cx="56.5" cy="30.5" r="2.23" fill="currentColor"/>
+      <circle cx="63.0" cy="30.5" r="2.07" fill="currentColor"/>
+      <circle cx="69.5" cy="30.5" r="1.81" fill="currentColor"/>
+      <circle cx="76.0" cy="30.5" r="1.48" fill="currentColor"/>
+      <circle cx="82.5" cy="30.5" r="1.08" fill="currentColor"/>
+      <circle cx="89.0" cy="30.5" r="0.63" fill="currentColor"/>
+      <circle cx="11.0" cy="37.0" r="0.83" fill="currentColor"/>
+      <circle cx="17.5" cy="37.0" r="1.30" fill="currentColor"/>
+      <circle cx="24.0" cy="37.0" r="1.71" fill="currentColor"/>
+      <circle cx="30.5" cy="37.0" r="2.07" fill="currentColor"/>
+      <circle cx="37.0" cy="37.0" r="2.35" fill="currentColor"/>
+      <circle cx="43.5" cy="37.0" r="2.54" fill="currentColor"/>
+      <circle cx="50.0" cy="37.0" r="2.61" fill="currentColor"/>
+      <circle cx="56.5" cy="37.0" r="2.54" fill="currentColor"/>
+      <circle cx="63.0" cy="37.0" r="2.35" fill="currentColor"/>
+      <circle cx="69.5" cy="37.0" r="2.07" fill="currentColor"/>
+      <circle cx="76.0" cy="37.0" r="1.71" fill="currentColor"/>
+      <circle cx="82.5" cy="37.0" r="1.30" fill="currentColor"/>
+      <circle cx="89.0" cy="37.0" r="0.83" fill="currentColor"/>
+      <circle cx="11.0" cy="43.5" r="0.96" fill="currentColor"/>
+      <circle cx="17.5" cy="43.5" r="1.43" fill="currentColor"/>
+      <circle cx="24.0" cy="43.5" r="1.86" fill="currentColor"/>
+      <circle cx="30.5" cy="43.5" r="2.23" fill="currentColor"/>
+      <circle cx="37.0" cy="43.5" r="2.54" fill="currentColor"/>
+      <circle cx="43.5" cy="43.5" r="2.77" fill="currentColor"/>
+      <circle cx="50.0" cy="43.5" r="2.86" fill="currentColor"/>
+      <circle cx="56.5" cy="43.5" r="2.77" fill="currentColor"/>
+      <circle cx="63.0" cy="43.5" r="2.54" fill="currentColor"/>
+      <circle cx="69.5" cy="43.5" r="2.23" fill="currentColor"/>
+      <circle cx="76.0" cy="43.5" r="1.86" fill="currentColor"/>
+      <circle cx="82.5" cy="43.5" r="1.43" fill="currentColor"/>
+      <circle cx="89.0" cy="43.5" r="0.96" fill="currentColor"/>
+      <circle cx="11.0" cy="50.0" r="1.00" fill="currentColor"/>
+      <circle cx="17.5" cy="50.0" r="1.48" fill="currentColor"/>
+      <circle cx="24.0" cy="50.0" r="1.91" fill="currentColor"/>
+      <circle cx="30.5" cy="50.0" r="2.29" fill="currentColor"/>
+      <circle cx="37.0" cy="50.0" r="2.61" fill="currentColor"/>
+      <circle cx="43.5" cy="50.0" r="2.86" fill="currentColor"/>
+      <circle cx="50.0" cy="50.0" r="3.00" fill="currentColor"/>
+      <circle cx="56.5" cy="50.0" r="2.86" fill="currentColor"/>
+      <circle cx="63.0" cy="50.0" r="2.61" fill="currentColor"/>
+      <circle cx="69.5" cy="50.0" r="2.29" fill="currentColor"/>
+      <circle cx="76.0" cy="50.0" r="1.91" fill="currentColor"/>
+      <circle cx="82.5" cy="50.0" r="1.48" fill="currentColor"/>
+      <circle cx="89.0" cy="50.0" r="1.00" fill="currentColor"/>
+      <circle cx="11.0" cy="56.5" r="0.96" fill="currentColor"/>
+      <circle cx="17.5" cy="56.5" r="1.43" fill="currentColor"/>
+      <circle cx="24.0" cy="56.5" r="1.86" fill="currentColor"/>
+      <circle cx="30.5" cy="56.5" r="2.23" fill="currentColor"/>
+      <circle cx="37.0" cy="56.5" r="2.54" fill="currentColor"/>
+      <circle cx="43.5" cy="56.5" r="2.77" fill="currentColor"/>
+      <circle cx="50.0" cy="56.5" r="2.86" fill="currentColor"/>
+      <circle cx="56.5" cy="56.5" r="2.77" fill="currentColor"/>
+      <circle cx="63.0" cy="56.5" r="2.54" fill="currentColor"/>
+      <circle cx="69.5" cy="56.5" r="2.23" fill="currentColor"/>
+      <circle cx="76.0" cy="56.5" r="1.86" fill="currentColor"/>
+      <circle cx="82.5" cy="56.5" r="1.43" fill="currentColor"/>
+      <circle cx="89.0" cy="56.5" r="0.96" fill="currentColor"/>
+      <circle cx="11.0" cy="63.0" r="0.83" fill="currentColor"/>
+      <circle cx="17.5" cy="63.0" r="1.30" fill="currentColor"/>
+      <circle cx="24.0" cy="63.0" r="1.71" fill="currentColor"/>
+      <circle cx="30.5" cy="63.0" r="2.07" fill="currentColor"/>
+      <circle cx="37.0" cy="63.0" r="2.35" fill="currentColor"/>
+      <circle cx="43.5" cy="63.0" r="2.54" fill="currentColor"/>
+      <circle cx="50.0" cy="63.0" r="2.61" fill="currentColor"/>
+      <circle cx="56.5" cy="63.0" r="2.54" fill="currentColor"/>
+      <circle cx="63.0" cy="63.0" r="2.35" fill="currentColor"/>
+      <circle cx="69.5" cy="63.0" r="2.07" fill="currentColor"/>
+      <circle cx="76.0" cy="63.0" r="1.71" fill="currentColor"/>
+      <circle cx="82.5" cy="63.0" r="1.30" fill="currentColor"/>
+      <circle cx="89.0" cy="63.0" r="0.83" fill="currentColor"/>
+      <circle cx="11.0" cy="69.5" r="0.63" fill="currentColor"/>
+      <circle cx="17.5" cy="69.5" r="1.08" fill="currentColor"/>
+      <circle cx="24.0" cy="69.5" r="1.48" fill="currentColor"/>
+      <circle cx="30.5" cy="69.5" r="1.81" fill="currentColor"/>
+      <circle cx="37.0" cy="69.5" r="2.07" fill="currentColor"/>
+      <circle cx="43.5" cy="69.5" r="2.23" fill="currentColor"/>
+      <circle cx="50.0" cy="69.5" r="2.29" fill="currentColor"/>
+      <circle cx="56.5" cy="69.5" r="2.23" fill="currentColor"/>
+      <circle cx="63.0" cy="69.5" r="2.07" fill="currentColor"/>
+      <circle cx="69.5" cy="69.5" r="1.81" fill="currentColor"/>
+      <circle cx="76.0" cy="69.5" r="1.48" fill="currentColor"/>
+      <circle cx="82.5" cy="69.5" r="1.08" fill="currentColor"/>
+      <circle cx="89.0" cy="69.5" r="0.63" fill="currentColor"/>
+      <circle cx="17.5" cy="76.0" r="0.79" fill="currentColor"/>
+      <circle cx="24.0" cy="76.0" r="1.17" fill="currentColor"/>
+      <circle cx="30.5" cy="76.0" r="1.48" fill="currentColor"/>
+      <circle cx="37.0" cy="76.0" r="1.71" fill="currentColor"/>
+      <circle cx="43.5" cy="76.0" r="1.86" fill="currentColor"/>
+      <circle cx="50.0" cy="76.0" r="1.91" fill="currentColor"/>
+      <circle cx="56.5" cy="76.0" r="1.86" fill="currentColor"/>
+      <circle cx="63.0" cy="76.0" r="1.71" fill="currentColor"/>
+      <circle cx="69.5" cy="76.0" r="1.48" fill="currentColor"/>
+      <circle cx="76.0" cy="76.0" r="1.17" fill="currentColor"/>
+      <circle cx="82.5" cy="76.0" r="0.79" fill="currentColor"/>
+      <circle cx="24.0" cy="82.5" r="0.79" fill="currentColor"/>
+      <circle cx="30.5" cy="82.5" r="1.08" fill="currentColor"/>
+      <circle cx="37.0" cy="82.5" r="1.30" fill="currentColor"/>
+      <circle cx="43.5" cy="82.5" r="1.43" fill="currentColor"/>
+      <circle cx="50.0" cy="82.5" r="1.48" fill="currentColor"/>
+      <circle cx="56.5" cy="82.5" r="1.43" fill="currentColor"/>
+      <circle cx="63.0" cy="82.5" r="1.30" fill="currentColor"/>
+      <circle cx="69.5" cy="82.5" r="1.08" fill="currentColor"/>
+      <circle cx="76.0" cy="82.5" r="0.79" fill="currentColor"/>
+      <circle cx="30.5" cy="89.0" r="0.63" fill="currentColor"/>
+      <circle cx="37.0" cy="89.0" r="0.83" fill="currentColor"/>
+      <circle cx="43.5" cy="89.0" r="0.96" fill="currentColor"/>
+      <circle cx="50.0" cy="89.0" r="1.00" fill="currentColor"/>
+      <circle cx="56.5" cy="89.0" r="0.96" fill="currentColor"/>
+      <circle cx="63.0" cy="89.0" r="0.83" fill="currentColor"/>
+      <circle cx="69.5" cy="89.0" r="0.63" fill="currentColor"/>
+  </g>
+  <text x="42" y="28" font-family="'Erode', Georgia, serif" font-size="32" font-weight="400" font-style="italic" fill="currentColor" letter-spacing="-0.02em">fold</text>
+</svg>
+    <button class="mobile-nav__close" aria-label="Cerrar menú" onclick="document.querySelector('.mobile-nav').classList.remove('is-open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <ul class="mobile-nav__links" role="list">
+    <li><a href="#featured" class="mobile-nav__link" onclick="document.querySelector('.mobile-nav').classList.remove('is-open')">AI</a></li>
+    <li><a href="#latest" class="mobile-nav__link" onclick="document.querySelector('.mobile-nav').classList.remove('is-open')">Innovación</a></li>
+    <li><a href="#featured" class="mobile-nav__link" onclick="document.querySelector('.mobile-nav').classList.remove('is-open')">Ecosistema</a></li>
+    <li><a href="#latest" class="mobile-nav__link" onclick="document.querySelector('.mobile-nav').classList.remove('is-open')">Deep Dives</a></li>
+  </ul>
+  <a href="#newsletter" class="mobile-nav__subscribe" onclick="document.querySelector('.mobile-nav').classList.remove('is-open')">Suscribirse</a>
+</div>
+
+<!-- ════ HERO WITH HALFTONE ANIMATION ════ -->
+<section class="hero">
+
+  <svg class="hero__isotype" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="30.5" cy="11.0" r="0.63" fill="currentColor"/><circle cx="37.0" cy="11.0" r="0.83" fill="currentColor"/><circle cx="43.5" cy="11.0" r="0.96" fill="currentColor"/><circle cx="50.0" cy="11.0" r="1.00" fill="currentColor"/><circle cx="56.5" cy="11.0" r="0.96" fill="currentColor"/><circle cx="63.0" cy="11.0" r="0.83" fill="currentColor"/><circle cx="69.5" cy="11.0" r="0.63" fill="currentColor"/>
+    <circle cx="24.0" cy="17.5" r="0.79" fill="currentColor"/><circle cx="30.5" cy="17.5" r="1.08" fill="currentColor"/><circle cx="37.0" cy="17.5" r="1.30" fill="currentColor"/><circle cx="43.5" cy="17.5" r="1.43" fill="currentColor"/><circle cx="50.0" cy="17.5" r="1.48" fill="currentColor"/><circle cx="56.5" cy="17.5" r="1.43" fill="currentColor"/><circle cx="63.0" cy="17.5" r="1.30" fill="currentColor"/><circle cx="69.5" cy="17.5" r="1.08" fill="currentColor"/><circle cx="76.0" cy="17.5" r="0.79" fill="currentColor"/>
+    <circle cx="17.5" cy="24.0" r="0.79" fill="currentColor"/><circle cx="24.0" cy="24.0" r="1.17" fill="currentColor"/><circle cx="30.5" cy="24.0" r="1.48" fill="currentColor"/><circle cx="37.0" cy="24.0" r="1.71" fill="currentColor"/><circle cx="43.5" cy="24.0" r="1.86" fill="currentColor"/><circle cx="50.0" cy="24.0" r="1.91" fill="currentColor"/><circle cx="56.5" cy="24.0" r="1.86" fill="currentColor"/><circle cx="63.0" cy="24.0" r="1.71" fill="currentColor"/><circle cx="69.5" cy="24.0" r="1.48" fill="currentColor"/><circle cx="76.0" cy="24.0" r="1.17" fill="currentColor"/><circle cx="82.5" cy="24.0" r="0.79" fill="currentColor"/>
+    <circle cx="11.0" cy="30.5" r="0.63" fill="currentColor"/><circle cx="17.5" cy="30.5" r="1.08" fill="currentColor"/><circle cx="24.0" cy="30.5" r="1.48" fill="currentColor"/><circle cx="30.5" cy="30.5" r="1.81" fill="currentColor"/><circle cx="37.0" cy="30.5" r="2.07" fill="currentColor"/><circle cx="43.5" cy="30.5" r="2.23" fill="currentColor"/><circle cx="50.0" cy="30.5" r="2.29" fill="currentColor"/><circle cx="56.5" cy="30.5" r="2.23" fill="currentColor"/><circle cx="63.0" cy="30.5" r="2.07" fill="currentColor"/><circle cx="69.5" cy="30.5" r="1.81" fill="currentColor"/><circle cx="76.0" cy="30.5" r="1.48" fill="currentColor"/><circle cx="82.5" cy="30.5" r="1.08" fill="currentColor"/><circle cx="89.0" cy="30.5" r="0.63" fill="currentColor"/>
+    <circle cx="11.0" cy="37.0" r="0.83" fill="currentColor"/><circle cx="17.5" cy="37.0" r="1.30" fill="currentColor"/><circle cx="24.0" cy="37.0" r="1.71" fill="currentColor"/><circle cx="30.5" cy="37.0" r="2.07" fill="currentColor"/><circle cx="37.0" cy="37.0" r="2.35" fill="currentColor"/><circle cx="43.5" cy="37.0" r="2.54" fill="currentColor"/><circle cx="50.0" cy="37.0" r="2.61" fill="currentColor"/><circle cx="56.5" cy="37.0" r="2.54" fill="currentColor"/><circle cx="63.0" cy="37.0" r="2.35" fill="currentColor"/><circle cx="69.5" cy="37.0" r="2.07" fill="currentColor"/><circle cx="76.0" cy="37.0" r="1.71" fill="currentColor"/><circle cx="82.5" cy="37.0" r="1.30" fill="currentColor"/><circle cx="89.0" cy="37.0" r="0.83" fill="currentColor"/>
+    <circle cx="11.0" cy="43.5" r="0.96" fill="currentColor"/><circle cx="17.5" cy="43.5" r="1.43" fill="currentColor"/><circle cx="24.0" cy="43.5" r="1.86" fill="currentColor"/><circle cx="30.5" cy="43.5" r="2.23" fill="currentColor"/><circle cx="37.0" cy="43.5" r="2.54" fill="currentColor"/><circle cx="43.5" cy="43.5" r="2.77" fill="currentColor"/><circle cx="50.0" cy="43.5" r="2.86" fill="currentColor"/><circle cx="56.5" cy="43.5" r="2.77" fill="currentColor"/><circle cx="63.0" cy="43.5" r="2.54" fill="currentColor"/><circle cx="69.5" cy="43.5" r="2.23" fill="currentColor"/><circle cx="76.0" cy="43.5" r="1.86" fill="currentColor"/><circle cx="82.5" cy="43.5" r="1.43" fill="currentColor"/><circle cx="89.0" cy="43.5" r="0.96" fill="currentColor"/>
+    <circle cx="11.0" cy="50.0" r="1.00" fill="currentColor"/><circle cx="17.5" cy="50.0" r="1.48" fill="currentColor"/><circle cx="24.0" cy="50.0" r="1.91" fill="currentColor"/><circle cx="30.5" cy="50.0" r="2.29" fill="currentColor"/><circle cx="37.0" cy="50.0" r="2.61" fill="currentColor"/><circle cx="43.5" cy="50.0" r="2.86" fill="currentColor"/><circle cx="50.0" cy="50.0" r="3.00" fill="currentColor"/><circle cx="56.5" cy="50.0" r="2.86" fill="currentColor"/><circle cx="63.0" cy="50.0" r="2.61" fill="currentColor"/><circle cx="69.5" cy="50.0" r="2.29" fill="currentColor"/><circle cx="76.0" cy="50.0" r="1.91" fill="currentColor"/><circle cx="82.5" cy="50.0" r="1.48" fill="currentColor"/><circle cx="89.0" cy="50.0" r="1.00" fill="currentColor"/>
+    <circle cx="11.0" cy="56.5" r="0.96" fill="currentColor"/><circle cx="17.5" cy="56.5" r="1.43" fill="currentColor"/><circle cx="24.0" cy="56.5" r="1.86" fill="currentColor"/><circle cx="30.5" cy="56.5" r="2.23" fill="currentColor"/><circle cx="37.0" cy="56.5" r="2.54" fill="currentColor"/><circle cx="43.5" cy="56.5" r="2.77" fill="currentColor"/><circle cx="50.0" cy="56.5" r="2.86" fill="currentColor"/><circle cx="56.5" cy="56.5" r="2.77" fill="currentColor"/><circle cx="63.0" cy="56.5" r="2.54" fill="currentColor"/><circle cx="69.5" cy="56.5" r="2.23" fill="currentColor"/><circle cx="76.0" cy="56.5" r="1.86" fill="currentColor"/><circle cx="82.5" cy="56.5" r="1.43" fill="currentColor"/><circle cx="89.0" cy="56.5" r="0.96" fill="currentColor"/>
+    <circle cx="11.0" cy="63.0" r="0.83" fill="currentColor"/><circle cx="17.5" cy="63.0" r="1.30" fill="currentColor"/><circle cx="24.0" cy="63.0" r="1.71" fill="currentColor"/><circle cx="30.5" cy="63.0" r="2.07" fill="currentColor"/><circle cx="37.0" cy="63.0" r="2.35" fill="currentColor"/><circle cx="43.5" cy="63.0" r="2.54" fill="currentColor"/><circle cx="50.0" cy="63.0" r="2.61" fill="currentColor"/><circle cx="56.5" cy="63.0" r="2.54" fill="currentColor"/><circle cx="63.0" cy="63.0" r="2.35" fill="currentColor"/><circle cx="69.5" cy="63.0" r="2.07" fill="currentColor"/><circle cx="76.0" cy="63.0" r="1.71" fill="currentColor"/><circle cx="82.5" cy="63.0" r="1.30" fill="currentColor"/><circle cx="89.0" cy="63.0" r="0.83" fill="currentColor"/>
+    <circle cx="11.0" cy="69.5" r="0.63" fill="currentColor"/><circle cx="17.5" cy="69.5" r="1.08" fill="currentColor"/><circle cx="24.0" cy="69.5" r="1.48" fill="currentColor"/><circle cx="30.5" cy="69.5" r="1.81" fill="currentColor"/><circle cx="37.0" cy="69.5" r="2.07" fill="currentColor"/><circle cx="43.5" cy="69.5" r="2.23" fill="currentColor"/><circle cx="50.0" cy="69.5" r="2.29" fill="currentColor"/><circle cx="56.5" cy="69.5" r="2.23" fill="currentColor"/><circle cx="63.0" cy="69.5" r="2.07" fill="currentColor"/><circle cx="69.5" cy="69.5" r="1.81" fill="currentColor"/><circle cx="76.0" cy="69.5" r="1.48" fill="currentColor"/><circle cx="82.5" cy="69.5" r="1.08" fill="currentColor"/><circle cx="89.0" cy="69.5" r="0.63" fill="currentColor"/>
+    <circle cx="17.5" cy="76.0" r="0.79" fill="currentColor"/><circle cx="24.0" cy="76.0" r="1.17" fill="currentColor"/><circle cx="30.5" cy="76.0" r="1.48" fill="currentColor"/><circle cx="37.0" cy="76.0" r="1.71" fill="currentColor"/><circle cx="43.5" cy="76.0" r="1.86" fill="currentColor"/><circle cx="50.0" cy="76.0" r="1.91" fill="currentColor"/><circle cx="56.5" cy="76.0" r="1.86" fill="currentColor"/><circle cx="63.0" cy="76.0" r="1.71" fill="currentColor"/><circle cx="69.5" cy="76.0" r="1.48" fill="currentColor"/><circle cx="76.0" cy="76.0" r="1.17" fill="currentColor"/><circle cx="82.5" cy="76.0" r="0.79" fill="currentColor"/>
+    <circle cx="24.0" cy="82.5" r="0.79" fill="currentColor"/><circle cx="30.5" cy="82.5" r="1.08" fill="currentColor"/><circle cx="37.0" cy="82.5" r="1.30" fill="currentColor"/><circle cx="43.5" cy="82.5" r="1.43" fill="currentColor"/><circle cx="50.0" cy="82.5" r="1.48" fill="currentColor"/><circle cx="56.5" cy="82.5" r="1.43" fill="currentColor"/><circle cx="63.0" cy="82.5" r="1.30" fill="currentColor"/><circle cx="69.5" cy="82.5" r="1.08" fill="currentColor"/><circle cx="76.0" cy="82.5" r="0.79" fill="currentColor"/>
+    <circle cx="30.5" cy="89.0" r="0.63" fill="currentColor"/><circle cx="37.0" cy="89.0" r="0.83" fill="currentColor"/><circle cx="43.5" cy="89.0" r="0.96" fill="currentColor"/><circle cx="50.0" cy="89.0" r="1.00" fill="currentColor"/><circle cx="56.5" cy="89.0" r="0.96" fill="currentColor"/><circle cx="63.0" cy="89.0" r="0.83" fill="currentColor"/><circle cx="69.5" cy="89.0" r="0.63" fill="currentColor"/>
+  </svg>
+  <div class="container hero__content">
+    <p class="hero__label">AI · Yucatán · México</p>
+    <h1 class="hero__title">Impacto real.<br>Sin ruido.</h1>
+    <p class="hero__subtitle">Lo último en inteligencia artificial, tecnología y el ecosistema de Mérida y México — curado para quienes toman decisiones.</p>
+    <a href="#newsletter" class="hero__cta">
+      Recibe el briefing semanal
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ════ CATEGORIES ════ -->
+<div class="container">
+  <nav class="categories" aria-label="Categorías">
+    <a href="#featured" class="categories__item">AI News</a>
+    <a href="#featured" class="categories__item">Ecosistema</a>
+    <a href="yucatan-inversion-111-mil-millones.html" class="categories__item">Mérida</a>
+    <a href="era-personal-computer-ai.html" class="categories__item">Deep Dives</a>
+    <a href="yucatan-inversion-111-mil-millones.html" class="categories__item">México</a>
+    <a href="#latest" class="categories__item">Rankings</a>
+  </nav>
+</div>
+
+<!-- ════ FEATURED ════ -->
+<section class="section section--bordered" id="featured">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__title">Destacado</h2>
+      <p class="section__date">Semana del 17 de marzo, 2026</p>
+    </div>
+
+    <div class="featured-grid">
+      <!-- Hero card — NemoClaw / GTC -->
+      <a href="nvidia-nemoclaw-gtc-2026.html" class="card card--hero fade-in">
+        <img class="card__image" src="hero-merida.jpg" alt="Jensen Huang, CEO de NVIDIA, presentando NemoClaw en GTC 2026" loading="eager">
+        <div>
+          <p class="card__category">AI News</p>
+          <h3 class="card__title">NVIDIA lanza NemoClaw en GTC — agentes AI seguros que corren 24/7 en tu PC</h3>
+          <p class="card__excerpt">El nuevo stack open source agrega privacidad y seguridad a OpenClaw. Se instala con un solo comando. Corre en RTX, DGX Spark, o la nube. Esto cambia cómo interactúas con tu computadora.</p>
+          <p class="card__meta">6 min de lectura</p>
+        </div>
+      </a>
+
+      <!-- Card 2 — Perplexity Personal Computer -->
+      <a href="perplexity-personal-computer.html" class="card fade-in">
+        <img class="card__image" src="card-perplexity.jpg" alt="Aravind Srinivas presentando Perplexity Personal Computer" loading="lazy">
+        <p class="card__category">AI News</p>
+        <h3 class="card__title">Perplexity Personal Computer: 20 modelos AI trabajando por ti, 24/7</h3>
+        <p class="card__excerpt">Tu proxy digital en un Mac mini. Acceso total a archivos, apps y herramientas. Perplexity dice que ahorró $1.6M en costos laborales en 4 semanas.</p>
+        <p class="card__meta">5 min de lectura</p>
+      </a>
+
+      <!-- Card 3 — Yucatán investment -->
+      <a href="yucatan-inversion-111-mil-millones.html" class="card fade-in">
+        <img class="card__image" src="card-yucatan.jpg" alt="Vista aérea de la Plaza Grande de Mérida, Yucatán" loading="lazy">
+        <p class="card__category">Mérida</p>
+        <h3 class="card__title">Yucatán presenta cartera de inversión de $111 mil millones — Mérida será sede del Innovafest 2026</h3>
+        <p class="card__excerpt">85 proyectos en manufactura, energías limpias, tech y logística. El sureste se posiciona como hub de inversión con respaldo federal.</p>
+        <p class="card__meta">4 min de lectura</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ════ LATEST ARTICLES ════ -->
+<section class="section section--bordered" id="latest">
+  <div class="container">
+    <div class="latest-grid">
+      <!-- Main list -->
+      <div>
+        <div class="section__header">
+          <h2 class="section__title">Lo Más Reciente</h2>
+        </div>
+
+        <div class="article-list">
+          <a href="era-personal-computer-ai.html" class="article-item fade-in">
+            <div class="article-item__content">
+              <p class="article-item__category">Deep Dive</p>
+              <h3 class="article-item__title">La era del personal computer regresó — pero ahora es AI</h3>
+              <p class="article-item__excerpt">NemoClaw, Perplexity Personal Computer, y Manus My Computer. Todo en la misma semana. Tres visiones distintas de un futuro donde la AI es tu computadora.</p>
+            </div>
+            <span class="article-item__number">01</span>
+          </a>
+
+          <a href="manus-my-computer-meta.html" class="article-item fade-in">
+            <div class="article-item__content">
+              <p class="article-item__category">AI News</p>
+              <h3 class="article-item__title">Manus lanza "My Computer" — Meta lleva su agente AI a tu escritorio</h3>
+              <p class="article-item__excerpt">Ya no vive solo en la nube. Manus ahora controla tu terminal, organiza archivos y construye apps localmente. Disponible en Mac y Windows.</p>
+            </div>
+            <span class="article-item__number">02</span>
+          </a>
+
+          <a href="openclaw-sistema-operativo-agentes.html" class="article-item fade-in">
+            <div class="article-item__content">
+              <p class="article-item__category">AI News</p>
+              <h3 class="article-item__title">OpenClaw: el sistema operativo open source para agentes AI personales</h3>
+              <p class="article-item__excerpt">Corre en WhatsApp, Slack y Discord. Se autoevoluciona. Y ahora NVIDIA, Meta y Perplexity están construyendo sobre él.</p>
+            </div>
+            <span class="article-item__number">03</span>
+          </a>
+
+          <a href="gtc-2026-resumen-jensen-huang.html" class="article-item fade-in">
+            <div class="article-item__content">
+              <p class="article-item__category">Deep Dive</p>
+              <h3 class="article-item__title">GTC 2026: todo lo que anunció Jensen Huang — NemoClaw, DLSS 5, y más</h3>
+              <p class="article-item__excerpt">NVIDIA reportó $68.1B en revenue trimestral. El resumen ejecutivo del evento más importante del año en AI y computing.</p>
+            </div>
+            <span class="article-item__number">04</span>
+          </a>
+
+          <a href="perplexity-computer-enterprise.html" class="article-item fade-in">
+            <div class="article-item__content">
+              <p class="article-item__category">Ecosistema</p>
+              <h3 class="article-item__title">Perplexity Computer for Enterprise — ahorro de $1.6M en 4 semanas</h3>
+              <p class="article-item__excerpt">APIs de Search, Agent, Embeddings y Sandbox. Integración con Snowflake, Salesforce y HubSpot. Lo que significa para equipos que ya usan AI.</p>
+            </div>
+            <span class="article-item__number">05</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside>
+        <h3 class="sidebar__heading">Contexto</h3>
+
+        <a href="openclaw-sistema-operativo-agentes.html" class="sidebar-item fade-in">
+          <p class="sidebar-item__title">Qué es OpenClaw y por qué NVIDIA, Meta y Perplexity están construyendo sobre él</p>
+          <p class="sidebar-item__meta">Explainer · 4 min</p>
+        </a>
+
+        <a href="gtc-2026-resumen-jensen-huang.html" class="sidebar-item fade-in">
+          <p class="sidebar-item__title">NVIDIA reportó $215.9B en revenue fiscal — el número detrás de GTC</p>
+          <p class="sidebar-item__meta">AI News · 3 min</p>
+        </a>
+
+        <a href="yucatan-inversion-111-mil-millones.html" class="sidebar-item fade-in">
+          <p class="sidebar-item__title">Yucatán creció 2.4% — octavo lugar nacional en expansión económica</p>
+          <p class="sidebar-item__meta">Mérida · 3 min</p>
+        </a>
+
+        <a href="era-personal-computer-ai.html" class="sidebar-item fade-in">
+          <p class="sidebar-item__title">De Manus a Perplexity: la carrera por ser tu agente AI personal</p>
+          <p class="sidebar-item__meta">Deep Dive · 8 min</p>
+        </a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ════ NEWSLETTER ════ -->
+<section class="newsletter" id="newsletter">
+  <div class="container container--narrow">
+    <h2 class="newsletter__title">Tu briefing semanal de AI y tecnología</h2>
+    <p class="newsletter__desc">Las noticias que importan del mundo AI + el ecosistema de Mérida y México. Curado. Sin ruido. Directo a tu inbox.</p>
+    <form class="newsletter__form" id="newsletter-form">
+      <input type="email" class="newsletter__input" placeholder="tu@email.com" required aria-label="Correo electrónico" id="newsletter-email">
+      <button type="submit" class="newsletter__submit" id="newsletter-btn">Suscribirse</button>
+    </form>
+    <p class="newsletter__success" id="newsletter-success">Listo — te enviamos un email de confirmación.</p>
+  </div>
+</section>
+
+<!-- ════ FOOTER ════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <!-- Institutional logo: grey sphere + fold text -->
+        <svg class="footer__logo" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="fold logo" style="height:64px;width:64px;">
+          <g fill="#c0c0c0">
+            <circle cx="30.5" cy="11.0" r="0.63"/><circle cx="37.0" cy="11.0" r="0.83"/><circle cx="43.5" cy="11.0" r="0.96"/><circle cx="50.0" cy="11.0" r="1.00"/><circle cx="56.5" cy="11.0" r="0.96"/><circle cx="63.0" cy="11.0" r="0.83"/><circle cx="69.5" cy="11.0" r="0.63"/>
+            <circle cx="24.0" cy="17.5" r="0.79"/><circle cx="30.5" cy="17.5" r="1.08"/><circle cx="37.0" cy="17.5" r="1.30"/><circle cx="43.5" cy="17.5" r="1.43"/><circle cx="50.0" cy="17.5" r="1.48"/><circle cx="56.5" cy="17.5" r="1.43"/><circle cx="63.0" cy="17.5" r="1.30"/><circle cx="69.5" cy="17.5" r="1.08"/><circle cx="76.0" cy="17.5" r="0.79"/>
+            <circle cx="17.5" cy="24.0" r="0.79"/><circle cx="24.0" cy="24.0" r="1.17"/><circle cx="30.5" cy="24.0" r="1.48"/><circle cx="37.0" cy="24.0" r="1.71"/><circle cx="43.5" cy="24.0" r="1.86"/><circle cx="50.0" cy="24.0" r="1.91"/><circle cx="56.5" cy="24.0" r="1.86"/><circle cx="63.0" cy="24.0" r="1.71"/><circle cx="69.5" cy="24.0" r="1.48"/><circle cx="76.0" cy="24.0" r="1.17"/><circle cx="82.5" cy="24.0" r="0.79"/>
+            <circle cx="11.0" cy="30.5" r="0.63"/><circle cx="17.5" cy="30.5" r="1.08"/><circle cx="24.0" cy="30.5" r="1.48"/><circle cx="30.5" cy="30.5" r="1.81"/><circle cx="37.0" cy="30.5" r="2.07"/><circle cx="43.5" cy="30.5" r="2.23"/><circle cx="50.0" cy="30.5" r="2.29"/><circle cx="56.5" cy="30.5" r="2.23"/><circle cx="63.0" cy="30.5" r="2.07"/><circle cx="69.5" cy="30.5" r="1.81"/><circle cx="76.0" cy="30.5" r="1.48"/><circle cx="82.5" cy="30.5" r="1.08"/><circle cx="89.0" cy="30.5" r="0.63"/>
+            <circle cx="11.0" cy="37.0" r="0.83"/><circle cx="17.5" cy="37.0" r="1.30"/><circle cx="24.0" cy="37.0" r="1.71"/><circle cx="30.5" cy="37.0" r="2.07"/><circle cx="37.0" cy="37.0" r="2.35"/><circle cx="43.5" cy="37.0" r="2.54"/><circle cx="50.0" cy="37.0" r="2.61"/><circle cx="56.5" cy="37.0" r="2.54"/><circle cx="63.0" cy="37.0" r="2.35"/><circle cx="69.5" cy="37.0" r="2.07"/><circle cx="76.0" cy="37.0" r="1.71"/><circle cx="82.5" cy="37.0" r="1.30"/><circle cx="89.0" cy="37.0" r="0.83"/>
+            <circle cx="11.0" cy="43.5" r="0.96"/><circle cx="17.5" cy="43.5" r="1.43"/><circle cx="24.0" cy="43.5" r="1.86"/><circle cx="30.5" cy="43.5" r="2.23"/><circle cx="37.0" cy="43.5" r="2.54"/><circle cx="43.5" cy="43.5" r="2.77"/><circle cx="50.0" cy="43.5" r="2.86"/><circle cx="56.5" cy="43.5" r="2.77"/><circle cx="63.0" cy="43.5" r="2.54"/><circle cx="69.5" cy="43.5" r="2.23"/><circle cx="76.0" cy="43.5" r="1.86"/><circle cx="82.5" cy="43.5" r="1.43"/><circle cx="89.0" cy="43.5" r="0.96"/>
+            <circle cx="11.0" cy="50.0" r="1.00"/><circle cx="17.5" cy="50.0" r="1.48"/><circle cx="24.0" cy="50.0" r="1.91"/><circle cx="30.5" cy="50.0" r="2.29"/><circle cx="37.0" cy="50.0" r="2.61"/><circle cx="43.5" cy="50.0" r="2.86"/><circle cx="50.0" cy="50.0" r="3.00"/><circle cx="56.5" cy="50.0" r="2.86"/><circle cx="63.0" cy="50.0" r="2.61"/><circle cx="69.5" cy="50.0" r="2.29"/><circle cx="76.0" cy="50.0" r="1.91"/><circle cx="82.5" cy="50.0" r="1.48"/><circle cx="89.0" cy="50.0" r="1.00"/>
+            <circle cx="11.0" cy="56.5" r="0.96"/><circle cx="17.5" cy="56.5" r="1.43"/><circle cx="24.0" cy="56.5" r="1.86"/><circle cx="30.5" cy="56.5" r="2.23"/><circle cx="37.0" cy="56.5" r="2.54"/><circle cx="43.5" cy="56.5" r="2.77"/><circle cx="50.0" cy="56.5" r="2.86"/><circle cx="56.5" cy="56.5" r="2.77"/><circle cx="63.0" cy="56.5" r="2.54"/><circle cx="69.5" cy="56.5" r="2.23"/><circle cx="76.0" cy="56.5" r="1.86"/><circle cx="82.5" cy="56.5" r="1.43"/><circle cx="89.0" cy="56.5" r="0.96"/>
+            <circle cx="11.0" cy="63.0" r="0.83"/><circle cx="17.5" cy="63.0" r="1.30"/><circle cx="24.0" cy="63.0" r="1.71"/><circle cx="30.5" cy="63.0" r="2.07"/><circle cx="37.0" cy="63.0" r="2.35"/><circle cx="43.5" cy="63.0" r="2.54"/><circle cx="50.0" cy="63.0" r="2.61"/><circle cx="56.5" cy="63.0" r="2.54"/><circle cx="63.0" cy="63.0" r="2.35"/><circle cx="69.5" cy="63.0" r="2.07"/><circle cx="76.0" cy="63.0" r="1.71"/><circle cx="82.5" cy="63.0" r="1.30"/><circle cx="89.0" cy="63.0" r="0.83"/>
+            <circle cx="11.0" cy="69.5" r="0.63"/><circle cx="17.5" cy="69.5" r="1.08"/><circle cx="24.0" cy="69.5" r="1.48"/><circle cx="30.5" cy="69.5" r="1.81"/><circle cx="37.0" cy="69.5" r="2.07"/><circle cx="43.5" cy="69.5" r="2.23"/><circle cx="50.0" cy="69.5" r="2.29"/><circle cx="56.5" cy="69.5" r="2.23"/><circle cx="63.0" cy="69.5" r="2.07"/><circle cx="69.5" cy="69.5" r="1.81"/><circle cx="76.0" cy="69.5" r="1.48"/><circle cx="82.5" cy="69.5" r="1.08"/><circle cx="89.0" cy="69.5" r="0.63"/>
+            <circle cx="17.5" cy="76.0" r="0.79"/><circle cx="24.0" cy="76.0" r="1.17"/><circle cx="30.5" cy="76.0" r="1.48"/><circle cx="37.0" cy="76.0" r="1.71"/><circle cx="43.5" cy="76.0" r="1.86"/><circle cx="50.0" cy="76.0" r="1.91"/><circle cx="56.5" cy="76.0" r="1.86"/><circle cx="63.0" cy="76.0" r="1.71"/><circle cx="69.5" cy="76.0" r="1.48"/><circle cx="76.0" cy="76.0" r="1.17"/><circle cx="82.5" cy="76.0" r="0.79"/>
+            <circle cx="24.0" cy="82.5" r="0.79"/><circle cx="30.5" cy="82.5" r="1.08"/><circle cx="37.0" cy="82.5" r="1.30"/><circle cx="43.5" cy="82.5" r="1.43"/><circle cx="50.0" cy="82.5" r="1.48"/><circle cx="56.5" cy="82.5" r="1.43"/><circle cx="63.0" cy="82.5" r="1.30"/><circle cx="69.5" cy="82.5" r="1.08"/><circle cx="76.0" cy="82.5" r="0.79"/>
+            <circle cx="30.5" cy="89.0" r="0.63"/><circle cx="37.0" cy="89.0" r="0.83"/><circle cx="43.5" cy="89.0" r="0.96"/><circle cx="50.0" cy="89.0" r="1.00"/><circle cx="56.5" cy="89.0" r="0.96"/><circle cx="63.0" cy="89.0" r="0.83"/><circle cx="69.5" cy="89.0" r="0.63"/>
+          </g>
+          <text x="50" y="54" text-anchor="middle" font-family="'Erode', Georgia, serif" font-style="italic" font-weight="500" font-size="14" fill="currentColor" letter-spacing="1">fold</text>
+        </svg>
+        <p>Noticias de AI y tecnología curadas para el ecosistema de Mérida y México. Sin ruido, solo impacto.</p>
+      </div>
+
+      <div class="footer__links">
+        <div class="footer__column">
+          <h4>Contenido</h4>
+          <ul role="list">
+            <li><a href="#featured">AI</a></li>
+            <li><a href="#latest">Innovación</a></li>
+            <li><a href="#featured">Ecosistema</a></li>
+            <li><a href="#latest">Deep Dives</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h4>fold</h4>
+          <ul role="list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copyright">© 2026 fold. Todos los derechos reservados.</p>
+      <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer" class="footer__attribution">Created with Perplexity Computer</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ════ SCRIPTS ════ -->
+<script>
+// Dark mode toggle with in-memory persistence
+(function(){
+  const t = document.querySelector('[data-theme-toggle]');
+  const r = document.documentElement;
+  let d = (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
+  r.setAttribute('data-theme', d);
+  updateIcon();
+
+  t && t.addEventListener('click', () => {
+    d = d === 'dark' ? 'light' : 'dark';
+    r.setAttribute('data-theme', d);
+    t.setAttribute('aria-label', 'Cambiar a modo ' + (d === 'dark' ? 'claro' : 'oscuro'));
+    updateIcon();
+  });
+
+  function updateIcon() {
+    if (!t) return;
+    t.innerHTML = d === 'dark'
+      ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+      : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+  }
+})();
+
+// Newsletter form with feedback
+(function(){
+  const form = document.getElementById('newsletter-form');
+  const btn = document.getElementById('newsletter-btn');
+  const success = document.getElementById('newsletter-success');
+  const email = document.getElementById('newsletter-email');
+  if (!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    btn.textContent = 'Enviando...';
+    btn.disabled = true;
+    setTimeout(function(){
+      form.style.display = 'none';
+      success.style.display = 'block';
+    }, 800);
+  });
+})();
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+// Scroll fade-in observer
+(function(){
+  const els = document.querySelectorAll('.fade-in');
+  if (!els.length) return;
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('is-visible');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  els.forEach(el => obs.observe(el));
+})();
+</script>
+
+<style>
+/* Newsletter success inline */
+.newsletter__success {
+  display: none;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-text);
+  text-align: center;
+  padding: var(--space-4);
+}
+</style>
+
+</body>
+</html>
